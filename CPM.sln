@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CPM.Application", "CPM.Appl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CPM.Infrastructure", "CPM.Infrastructure\CPM.Infrastructure.csproj", "{E62B3E68-3916-440F-86BA-044861FD70BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Client", "BlazorWasm.Client\BlazorWasm.Client.csproj", "{CFA43A0F-B9C3-407E-8CE8-67C212DC025F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Client", "BlazorWasm.Client\BlazorWasm.Client.csproj", "{CFA43A0F-B9C3-407E-8CE8-67C212DC025F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPM.API.UnitTests", "CPM.API.UnitTests\CPM.API.UnitTests.csproj", "{EBEE0329-7069-4279-9E8F-3DF12991F798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CFA43A0F-B9C3-407E-8CE8-67C212DC025F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA43A0F-B9C3-407E-8CE8-67C212DC025F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA43A0F-B9C3-407E-8CE8-67C212DC025F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEE0329-7069-4279-9E8F-3DF12991F798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEE0329-7069-4279-9E8F-3DF12991F798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEE0329-7069-4279-9E8F-3DF12991F798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEE0329-7069-4279-9E8F-3DF12991F798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
