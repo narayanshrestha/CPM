@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CPM.API.Controllers
 {
-    [Authorize]
+    //TODO: Incomment this for authorization
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase

@@ -17,6 +17,9 @@ builder.Services.AddHttpClient("ApiEndPoint")
     .ConfigureHttpClient(c => c.BaseAddress = new Uri(serverUrl))
     .AddHttpMessageHandler<AuthenticationHandler>();
 
+//TODO: Juts for testing
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(serverUrl) });
+
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddSingleton<IAuthenticationService, AuthenticationService>();
 
